@@ -1,9 +1,13 @@
 'use strict';
 
+const Service = require('ee-core').Service;
 const Storage = require('ee-core').Storage;
-const Service = require('egg').Service;
 const _ = require('lodash');
 
+/**
+ * 数据存储
+ * @class
+ */
 class StorageService extends Service {
 
   constructor (ctx) {
